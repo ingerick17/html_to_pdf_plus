@@ -4,8 +4,8 @@ version: 1.0.6
 homepage: https://github.com/khizar1556/html_to_pdf_plus
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
-  flutter: '>=3.3.0'
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.3.0"
 
 dependencies:
   flutter:
@@ -23,11 +23,9 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.khizar1556.html_to_pdf_plus
         pluginClass: FlutterHtmlToPdfPlugin
       ios:
         pluginClass: FlutterHtmlToPdfPlugin
-
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
